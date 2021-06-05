@@ -10,9 +10,11 @@ html > * {
   font-family: "HeaderMuromets";
   background-color: #000000;
 }
+.image-container {
+  max-width: 20vw;
+  max-height: auto;
+}
 .family-photo {
-  width: 20vw;
-  height: auto;
   background-color: #000000;
   border-radius: 10px;
 }
