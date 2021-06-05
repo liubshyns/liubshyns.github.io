@@ -1,0 +1,37 @@
+html > * {
+  background-color: #000000;
+}
+
+.header {
+  align-items: center;
+  text-align: center;
+  color: #eab11f;
+  font-size: 5em;
+  font-family: "HeaderMuromets";
+  background-color: #000000;
+}
+.family-photo {
+  width: 20vw;
+  height: auto;
+  background-color: #000000;
+  border-radius: 10px;
+}
+.description-text-short {
+  color: #ffffff;
+  width: 50vw;
+  margin-top: 10vh;
+  font-family: sans-serif;
+  word-spacing: 1px !important;
+}
+.button-details {
+  float: right;
+  margin-top: 8vh;
+  background-color: #eab11f;
+  color: #000;
+}
+@font-face {
+  font-family: "HeaderMuromets";
+  src: url("./fonts/10451.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
