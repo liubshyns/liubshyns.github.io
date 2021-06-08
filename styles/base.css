@@ -42,8 +42,8 @@ html > * {
 }
 .art {
   border-radius: 10px;
-  width: 80%;
-  height: auto;
+  height: 40vh;
+  width: auto;
 }
 .l {
   margin-left: 100px;
