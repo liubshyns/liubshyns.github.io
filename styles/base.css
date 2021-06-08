@@ -45,3 +45,10 @@ html > * {
   width: 120%;
   height: auto;
 }
+.l {
+  margin-left: 100px;
+}
+.r {
+  margin-right: 100px;
+  
+}
