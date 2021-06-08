@@ -47,7 +47,9 @@ html > * {
   width: auto;
 }
 .lef { 
-  margin-left: 10vw;
+padding: 10%;
+align-items: center;
+justify-content: center;
 }
 .t {
   margin-top: 20vh;
