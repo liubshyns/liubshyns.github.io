@@ -1,5 +1,6 @@
 html > * {
   background-color: #000000;
+  overflow-x: hidden;
 }
 
 .header {
@@ -45,10 +46,14 @@ html > * {
   height: 40vh;
   width: auto;
 }
-.l {
-  margin-left: 100px;
+.lef { 
+  margin-left: 10vw;
 }
-.r {
-  margin-right: 100px;
+.t {
+  margin-top: 20vh;
+}
+.c {
+  justify-content: center;
+  justify-self: center;
   
 }
