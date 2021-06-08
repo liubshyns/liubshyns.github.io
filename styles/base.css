@@ -43,8 +43,8 @@ html > * {
 }
 .art {
   border-radius: 10px;
-  height: 40vh;
-  width: auto;
+  max-height: auto;
+  max-width: 20vw;
 }
 .lef { 
 padding: 10%;
