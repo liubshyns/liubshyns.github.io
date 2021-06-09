@@ -86,3 +86,10 @@ html {
     font-size: 1.6rem;
   }
 }
+
+.hoverable:hover {
+  opacity: 80%;
+}
+.hoverable {
+  transition: opacity 1s;
+}
