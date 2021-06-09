@@ -10,9 +10,11 @@ const showImage = (link) => {
     const cont = document.createElement('div')
     cont.className = 'art'
     cont.inner = imageLoader();
+
     const image = document.createElement('img')
     image.src = link;
     image.className = "art";
+    
     image.onload = () => {cont.inner = image};
     return cont
 };

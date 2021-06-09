@@ -56,6 +56,33 @@ justify-content: center;
 }
 .c {
   justify-content: center;
-  justify-self: center;
-  
+  justify-self: center; 
+}
+.bigArt {
+  margin-top: 2vh;
+  border-radius: 10px;
+  max-height: auto;
+  max-width: 20vw;
+}
+
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
 }
