@@ -117,3 +117,6 @@ html {
   max-width: 20vw;
   max-height: auto;
 }
+.padded {
+  padding: 20px 20px 20px 20px;
+}
