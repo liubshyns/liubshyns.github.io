@@ -3,6 +3,21 @@ html > * {
   overflow-x: hidden;
 }
 
+.hoverable:hover {
+  opacity: 80%;
+}
+.hoverable {
+  transition: opacity 1s;
+}
+
+.button-container {
+  padding: 30px 20px 20px 60px;
+}
+.button-back {
+  min-width: 5vw;
+  max-width: 20vw;
+  max-height: auto;
+}
 .header {
   align-items: center;
   text-align: center;
