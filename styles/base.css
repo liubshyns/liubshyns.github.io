@@ -142,3 +142,54 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: #e7ad1a; 
 }
+
+@media screen and (max-width:800px) {
+  .col {
+    display: normal;
+  }
+  .art {
+
+      width:100vw !important;
+      height: auto;
+      margin-top: 30vh;
+  }
+}
+.mobile {
+  display: none;
+}
+@media only screen and (max-width: 640px) {
+  /* For mobile phones: */
+  .desktop {
+    display: none !important;
+  }
+  .mobile {
+    display: unset !important;
+  }
+  .p {
+    padding-left: 5vh;
+    width: 100%;
+    padding-right: 5vh;
+    line-height: 5vh;
+  }
+  .header {
+    font-size: 3em;
+  }
+  .mobile-image {
+    width: 100%;
+    height: auto;
+    padding-left: 5vw;
+  }
+  .button-details {
+    background-color: #eab11f;
+    color: #000;
+    margin-right: 10vw;
+    margin-top: 1vh;
+  }
+  .padded {
+    font-size: 1.2em;
+  }
+  .mobile-art {
+    width: 80%;
+    height: auto;
+  }
+}
