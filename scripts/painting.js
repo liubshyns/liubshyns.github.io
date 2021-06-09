@@ -374,5 +374,21 @@ const getURL = () => {
     poemCol.appendChild(poemParagraph);
     rep.appendChild(poemCol);
 
+
+
+    ////////////////////////
+
+    rep = document.getElementsByClassName('replace-mobile')[0];
+    art = document.createElement('img');
+    art.src = `./static/art/${pnumber}.jpg`;
+    art.className = 'bigArt';
+    rep.classname += " container-flex"
+    rep.appendChild(art);
+    poem = getPoemByN(eval(pnumber));
+    poemParagraph = document.createElement('p');
+    poemParagraph.className = 'h4 text-light';
+    poemParagraph.innerText = poem;
+    rep.appendChild(poemParagraph);
+
 }
 window.onload = () => getURL();
