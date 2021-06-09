@@ -61,8 +61,8 @@ justify-content: center;
 .bigArt {
   margin-top: 2vh;
   border-radius: 10px;
-  max-height: auto;
-  max-width: 20vw;
+  max-height: 40vh;
+  max-width: auto;
 }
 
 html {
